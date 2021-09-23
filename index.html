@@ -11,9 +11,23 @@
                grid-template-columns: auto auto;
            }
            .grid-item{
-               background-color:rgba(123, 143, 155, 0.829);
+               background-color:rgba(125, 164, 189, 0.829);
                padding: 20px;
            }
+           @media screen and (min-width: 1025px) {
+            div {
+                margin-left: 300px;
+                margin-right: 300px;
+            }
+        }
+        @media screen and (max-width: 1024px) {
+            div {
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+        }
+               
+           
        </style>
     </head>
     <body style="background-color:rgb(237, 243, 245);">
@@ -97,7 +111,6 @@
 
             <div class="grid-item;">
                
-
                 <h5 style=" font-family:monospace;font-size: 30px;margin-top: 10px;margin-left: 10px;">
                     EDUCATION
                 <div style="text-align: center;">
