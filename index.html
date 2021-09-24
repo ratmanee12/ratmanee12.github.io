@@ -8,40 +8,33 @@
        <style>
            #grid{
                display: grid;
-               grid-template-columns: auto auto;
+               grid-template-columns: auto 100;
            }
            .grid-item{
                background-color:rgba(125, 164, 189, 0.829);
                padding: 20px;
            }
-           @media screen and (min-width: 1025px) {
-            div {
-                margin-left: 300px;
-                margin-right: 300px;
-            }
         }
-        @media screen and (max-width: 1024px) {
-            div {
-                margin-left: 0px;
-                margin-right: 0px;
-            }
-        }
-               
-           
+            
        </style>
     </head>
     <body style="background-color:rgb(237, 243, 245);">
         <div id="grid">
             <div class="grid-item">
-                <h4 style="color: rgb(37, 35, 35);font-family:monospace;font-size: 40px;margin-top: 10px;margin-bottom: 20px;margin-right: 10px;">
-                    RATMANEE SARAPAK
-                </h4>
+                <div style="text-align: right;">
+                <a href="#PROFILE"> PROFILE </a><br>
+                <a href="#CONTACT"> CONTACT </a><br>
+                <a href="#SKILLS"> SKILLS </a><br>
+                <a href="#EDUCATION"> EDUCATION </a><br>
+                <a href="#JOB EXPERIENCE"> JOB EXPERIENCE </a><br>
+                <a href="#HOBBIES"> HOBBIES </a><br>
+                </div>
+
+                <a id="PROFILE"> <h1 style="font-family:monospace;font-size: 30px;margin-bottom: 10px;">PROFILE</a> 
                 <div style="text-align: center;">
                     <img src="Ratmanee.jpg" alt="Ratmanee" width="240px" height="170px" ;">  
                 </div> 
-                    <h1 style="font-family:monospace;font-size: 30px;margin-bottom: 10px;">
-                        PROFILE
-                    
+                
                         <div style="color: whitesmoke;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size: 18px;">
                             Name : Miss Ratmanee Sarapak
                         </div>
@@ -58,10 +51,8 @@
                             Religion : Buddhism
                         </div>
                     </h1>
-                        
-                    <h2 style="font-family: monospace;font-size:30px;margin-bottom: 10px;">
-                        CONTACT
-                    
+
+                <a id="CONTACT"><h2 style="font-family: monospace;font-size:30px;margin-bottom: 10px;"> CONTACT </a>    
                         <div style="color: whitesmoke;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size: 18px;">
                             <a href="https://www.facebook.com/tor.teay.1"> 
                             <img src="fb.png" alt="fb" width="40px" height="40"></a>Ratmanee Sarapak
@@ -77,8 +68,8 @@
                             <img src="mail.png" alt="mail" width="40px" height="40"> s6201072516265@email.kmutnb.ac.th
                         </div>
                     </h2>
-                    <h3 style="font-family: monospace;font-size:30px;">
-                        SKILLS
+                    
+                <a id="SKILLS"><h3 style="font-family: monospace;font-size:30px;">SKILLS </a>
                         
                         <div style="color: rgb(12, 12, 12);font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size: 18px;margin-top: 10px;">
                             Languages Skills
@@ -110,9 +101,8 @@
             </div>
 
             <div class="grid-item;">
-               
-                <h5 style=" font-family:monospace;font-size: 30px;margin-top: 10px;margin-left: 10px;">
-                    EDUCATION
+                <a id="EDUCATION"> <h5 style="font-family:monospace;font-size: 30px;margin-bottom: 10px;">EDUCATION</a>
+                
                 <div style="text-align: center;">
                         <img src="tatc.gif" alt="tatc" width="90px" height="90px">
                     </div>
@@ -125,9 +115,7 @@
                     <div style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size: 18px;margin-top: 10px;margin-left: 30px;margin-right: 10px;">
                             Department : Electronics 
                     </div>
-                    <div style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size: 18px;margin-top: 10px;margin-left: 30px;margin-right: 10px;">
-                        GPA : 3.22
-                    </div>
+                    
                     <div style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size: 18px;margin-top: 15px;margin-left: 10px;">
                         2018
                     </div>
@@ -137,10 +125,7 @@
                     <div style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size: 18px;margin-top: 10px;margin-left: 30px;margin-right: 10px;">
                         Department : Instrument and Control Technology 
                     </div>
-                    <div style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size: 18px;margin-top: 10px;margin-left: 30px;margin-right: 10px;">
-                        GPA : 3.23
-                    </div>
-                
+                    
                 <div style="text-align: center;margin-top: 10px;">
                         <img src="kmutnb.png" alt="kmutnb" width="90px" height="90px">
                     </div>
@@ -154,20 +139,20 @@
                         Department : Instrumentation Engineering
                     </div>
                 </h5>
-                <h6 style=" font-family:monospace;font-size: 30px;margin-left: 10px;">
-                    Job Experience
+
+                <a id="JOB EXPERIENCE"><h6 style=" font-family:monospace;font-size: 30px;margin-left: 10px;">JOB EXPERIENCE </a>
                     <div style="text-align: center;">
                         <img src="TPE.jpg" alt="TPE" width="90px" height="90px">
                     </div>
                     <div style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size: 18px;margin-top: 10px;margin-left: 10px;">
-                        2018 -2019
+                        2018 - 2019
                     </div>
                     <div style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size: 18px;margin-top: 10px;margin-left: 30px;margin-right: 10px;">
                         Inters at SCG Chemical (THAI POLYETHYLENE CO., LTD)
                     </div> 
                 </h6>
-                <h7 style=" font-family:monospace;font-size: 30px;margin-left: 10px;">
-                    HOBBIES
+
+                <a id="HOBBIES"><h7 style=" font-family:monospace;font-size: 30px;margin-left: 10px;">HOBBIES </a>
                     <div style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size: 18px;margin-top: 10px;margin-left: 10px;">
                         <img src="badminton.png" alt="badminton" width="50px" height="50px">
                             Badminton
